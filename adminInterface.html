@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+
+    <!-----------------ADMIN INTERFACE------------------>
+    <link rel="stylesheet" type="text/css" href="./AdminInter.Style/adminInterface.css">
+
+    <!-----------------FIRST CONTAINER------------------->
+    <link rel="stylesheet" type="text/css" href="./AdminInter.Style/firstContainer.css">
+
+    <!-----------------SECOND CONTAINER------------------>
+    <link rel="stylesheet" type="text/css" href="./AdminInter.Style/secondContainer.css">
+
+    <!-----------------THIRDCONTAINER------------------>
+    <link rel="stylesheet" type="text/css" href="./AdminInter.Style/thirdContainer.css">
+
+    <!-----------------FONT ICON STYLE------------------>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-------------------ADMING MEDIA QUEARY---------------------->
+
+    <!--------------------ADMIN INTERFACE-------------------->
+
+    <link rel="stylesheet" type="text/css" href="./adminMediaqueary/adminInterfaceMQ.css">
+
+    <!-----------------FIRST CONTAINER MEDIA QUEARY------------------->
+
+    <link rel="stylesheet" type="text/css" href="./adminMediaqueary/adminFirstcontainerMQ.css">
+
+    <!-----------------SECOND CONTAINER MEDIA QUEARY------------------->
+
+     <link rel="stylesheet" type="text/css" href="./adminMediaqueary/adminSecondcontainerMQ.css">
+
+    <!-----------------THIRDCONTAINER MEDIA QUEARY------------------->
+
+    <link rel="stylesheet" type="text/css" href="./adminMediaqueary/adminThirdcontainerMQ.css">
+</head>
+<body>
+
+    <aside class="aside">
+        <div class="sidebar active">
+            <div class="admin-user">
+                <span class="material-symbols-sharp">account_circle</span>
+                <h1>Fiona</h1>
+            </div>
+            <div class="sidebar-option">
+                <ul>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">Order</a></li>
+                    <li><a href="">Received Order</a></li>
+                    <li><a href="">Processing Order</a></li>
+                    <li><a href="">Cancelled Order</a></li>
+
+                    <li><span class="material-symbols-sharp">logout</span><a href="">Log-out</a>
+
+                </ul>
+            </div>
+
+            
+
+        </div>
+    </aside>
+
+    <header>
+        <nav>
+            <span class="material-symbols-sharp sidebarBtn">menu</span>
+
+            <h1>KAN-ANA</h1>
+
+            <h1>DASHBOARD</h1>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-container">
+            
+                <a href="" class="order"><span class="material-symbols-sharp">border_color</span><h2>Orders</h2></a>
+               
+
+                <a href="" class="received-order">
+                    <span class="material-symbols-sharp">order_approve</span><h2>Received Orders</h2></a>
+                </class=>
+
+                <a href="" class="processing-order">
+                    <span class="material-symbols-sharp">event_repeat</span><h2>Processing Orders</h2></a>
+               
+
+                <a href="" class="cancelled-order">
+                    <span class="material-symbols-sharp">draft_orders</span><h2>Cancelled Orders</h2></a>
+
+
+        </section>
+
+        <section class="second-container">
+            <h1>RECENTLY ORDERS</h1>
+            <div class="recently-order">
+                <table width="80%">
+                    <tr>
+                        <th>Fullname</th>
+                        <th>Order</th>
+                        <th>Mobile Number</th>
+                        <th>Department</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Bokskie</td>
+                        <td>beef steak, bananaque, sprite</td>
+                        <td>09345163914</td>
+                        <td>Information Technology</td>
+                        <td>15/12/2022</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </table>
+            </div>
+            
+        </section>
+
+        <section class="third-container">
+
+            <div class="product-sale">
+                <h1>Product Sales</h1>
+
+                <img src="./image/beefsteak.jpg" alt="" width="100" height="250">
+
+                <img src="./image/popsicle.jpg" alt="" width="100" height="250">
+
+                <p>10% Sales</p>
+            </div>
+
+            <div class="earning">
+                <h1>Earnings</h1>
+
+                <h2>This Month</h2>
+
+                <p>1k<br> NetWorth</p>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="./src/userInterface.js"></script>
+    
+</body>
+</html>

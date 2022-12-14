@@ -1,0 +1,22 @@
+@media (max-width: 480px){
+    .second-container
+{
+    width: calc(100% - 20px);
+    left: 10px;
+    height: 70vh;
+}
+.second-container h1 
+{
+    font-size: 22px;
+}
+.second-container .recently-order th
+{
+    color: #00aa6c;
+    border-radius: 1rem;
+    
+}
+.second-container .recently-order th, td 
+{
+    font-size: 14px;
+}
+}

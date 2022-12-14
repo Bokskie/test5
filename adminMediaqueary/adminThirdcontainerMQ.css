@@ -1,0 +1,33 @@
+@media (max-width: 480px){
+    main .third-container
+{
+    height: 80vh;
+    padding-top: 2rem;
+}
+main .third-container .product-sale, .earning
+{
+    width: 40%;
+    height: 60vh;
+}
+main .third-container .product-sale h1, .earning h1 
+{
+    font-size: 22px;
+}
+main .third-container .product-sale img 
+{
+    height: 40vh;
+}
+main .third-container .product-sale p
+{
+    font-size: 14px;
+}
+main .third-container .earning h2 
+{
+    font-size: 16px;
+}
+main .third-container .earning p
+{
+    width: 50%;
+    font-size: 14px;
+}
+}

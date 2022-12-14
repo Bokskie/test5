@@ -1,0 +1,64 @@
+/*--------------ORDER STYLE--------------*/
+main .first-container .order
+{
+    background: #ffffff;
+    height: 14vh;
+    width: 20%;
+    padding-top: 0.8rem;
+    box-shadow: 3px 1px 2px #000;
+    border-radius: 1rem;
+}
+main .first-container .order span 
+{
+    border-radius: 3rem;
+    background: #fbfd6a;
+    padding: 10px;
+}
+/*--------------ORDER RECEIVED STYLE--------------*/
+main .first-container .received-order
+{
+    background: #ffffff;
+    height: 14vh;
+    width: 20%;
+    padding-top: 0.8rem;
+    box-shadow: 3px 1px 2px #000;
+    border-radius: 1rem;
+}
+main .first-container .received-order span 
+{
+    border-radius: 3rem;
+    background: #fc6710;
+    padding: 10px;
+}
+/*--------------ORDER PROCESSING STYLE--------------*/
+main .first-container .processing-order
+{
+    background: #ffffff;
+    width: 20%;
+    height: 14vh;
+    padding-top: 0.8rem;
+    box-shadow: 3px 1px 2px #000;
+    border-radius: 1rem;
+}
+main .first-container .processing-order span 
+{
+    border-radius: 3rem;
+    background: #09ffff;
+    padding: 10px;
+}
+/*--------------ORDER CANCELLED STYLE--------------*/
+main .first-container .cancelled-order
+{
+    background: #ffffff;
+    width: 20%;
+    height: 14vh;
+    padding-top: 0.8rem;
+    box-shadow: 3px 1px 2px #000;
+    border-radius: 1rem;
+}
+main .first-container .cancelled-order span 
+{
+    border-radius: 3rem;
+    background: #ff0909;
+    padding: 10px;
+}

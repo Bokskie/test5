@@ -1,0 +1,28 @@
+@media (max-width: 480px){
+    /*--------------ORDER STYLE--------------*/
+    main .first-container .order
+    {
+        height: 20vh;
+        width: 40%;
+    }
+    
+    /*--------------ORDER RECEIVED STYLE--------------*/
+    main .first-container .received-order
+    {
+        height: 20vh;
+        width: 40%;
+    }
+    /*--------------ORDER PROCESSING STYLE--------------*/
+    main .first-container .processing-order
+    {
+        height: 20vh;
+        width: 40%;
+    }
+    /*--------------ORDER CANCELLED STYLE--------------*/
+    main .first-container .cancelled-order
+    {
+        height: 20vh;
+        width: 40%;
+    }
+    
+    }

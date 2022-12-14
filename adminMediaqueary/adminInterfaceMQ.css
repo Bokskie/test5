@@ -1,0 +1,89 @@
+@media (max-width: 480px){
+    aside 
+{
+    width: 0px;
+}
+aside.active
+{
+    width: 110px;
+}
+aside.active ~ main
+{
+    width: calc(100% - 110px);
+    left: 110px;
+}
+aside.active ~ header
+{   
+    width: calc(100% - 110px);
+    left: 110px;
+}
+aside .sidebar .sidebar-option 
+{
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+aside .sidebar .sidebar-option ul li 
+{
+    line-height: 2rem;
+}
+aside .sidebar .sidebar-option ul li a 
+{
+    font-size: 12px;
+}
+aside .sidebar .admin-user span
+{
+    font-size: 2rem;
+}
+aside .sidebar .admin-user h1 
+{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/*----------------HEADER-----------------*/
+header
+{
+    width: calc(100% - 0px);
+    left: 0px;
+}
+header nav span 
+{
+    position: relative;
+    padding: 4px;
+}
+header nav h1 
+{
+    color: #ffffffff;
+    font-size: 16px;
+}
+/*----------------MAIN-----------------*/
+main
+{
+    width: calc(100% - 0px);
+    left: 0px;
+    height: auto;
+    overflow: hidden;
+}
+main .first-container 
+{
+    flex-wrap: wrap; 
+    gap: 2rem;
+    height: 100vh;
+}
+main .first-container a 
+{
+    transition: all ease-in 0.5s;
+}
+main .first-container a:hover 
+{
+    background: #00aa6c;
+}
+main .first-container a h2 
+{
+    font-size: 16px;
+    color: #000;
+}
+
+
+}

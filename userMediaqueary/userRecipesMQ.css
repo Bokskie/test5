@@ -1,0 +1,29 @@
+@media (max-width: 480px){
+
+
+.foodRecps
+{
+    height: auto;
+}
+.foodRecps .food-list
+{
+    padding-bottom: 6rem;
+}
+.foodRecps .food-list h1 
+{
+    font-size: 22px;
+}
+.foodRecps .food-list .food-recipes ul li 
+{
+    height: auto;
+    width: 40%;   
+}
+.foodRecps .food-list .food-recipes ul li img 
+{
+    width: 80%;
+}
+.foodRecps .food-list .food-recipes ul li p
+{
+    font-size: 12px;
+}
+}

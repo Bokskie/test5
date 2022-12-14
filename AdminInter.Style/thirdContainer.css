@@ -1,0 +1,53 @@
+main .third-container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+main .third-container .product-sale, .earning
+{
+    background: #ffffff;
+    box-shadow: 3px 1px 2px #000;
+    width: 30%;
+    height: 60vh;
+    text-align: center;
+    border-radius: 3rem;
+}
+main .third-container .product-sale h1, .earning h1 
+{
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-top: 1rem;
+    color: #00aa6c;
+}
+main .third-container .product-sale img 
+{
+    padding-top: 2rem;
+    width: 40%;
+}
+main .third-container .product-sale p
+{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+}
+main .third-container .earning h2 
+{
+    padding-top: 2rem;
+    font-family: sans-serif;
+}
+main .third-container .earning p
+{
+    background: #ffffff;
+    margin: auto;
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    height: 20vh;
+    width: 40%;
+    border: 14px solid rgb(255, 71, 209);
+    border-top-color:rgb(73, 228, 255);
+    border-left-color:rgb(30, 255, 116);
+    border-radius: 100%;
+    font-size: 20px;
+    font-family: bold;
+}

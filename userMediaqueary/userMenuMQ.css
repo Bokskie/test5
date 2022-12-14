@@ -1,0 +1,63 @@
+@media (max-width: 480px){
+.menu
+{
+    height: auto;
+}
+.menu .menu-content h2 
+{
+    font-size: 24px;
+}
+.menu .menu-content h3 
+{  
+    font-size: 22px;
+}
+.menu .menu-content h4
+{
+    font-size: 22px;
+}
+.menu .menu-content .menu-food a
+{ 
+    height: 50vh;
+}
+.menu .menu-content .menu-food a:hover
+{
+    top: 10px;
+    position: relative;
+} 
+.menu .menu-content .menu-food h4
+{
+    font-size: 18px;
+}
+/*-------------MENU PRICE FONT SIZE/STYLE/FONTFAMILY------------*/
+.menu .menu-content .menu-food p 
+{
+    font-size: 14px;
+}
+.menu .menu-content .menu-snacks a p 
+{
+    font-size: 14px;
+}
+.menu .menu-content .menu-drinks a p 
+{
+    font-size: 14px;
+}
+/*----------------SNACKS MENU-----------------*/
+.menu .menu-content .menu-snacks a 
+{
+    height: 50vh;
+}
+.menu .menu-content .menu-snacks h4
+{
+    font-size: 20px;
+}
+/*----------------DRINKS MENU-----------------*/
+
+.menu .menu-content .menu-drinks a 
+{
+    height: 50vh;
+} 
+.menu .menu-content .menu-drinks h4
+{
+    font-size: 20px;
+}
+}
